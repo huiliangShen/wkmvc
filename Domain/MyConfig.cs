@@ -89,7 +89,7 @@ namespace Domain
         /// </summary>
         //public static void EFTracingConfig(log4net.ILog log4net)
         //{
-        //    //注册拦截器
+        //    //注册拦截器this
         //    EFTracingProviderConfiguration.RegisterProvider();
         //    //SQL日志
         //    log4net.ILog log = null;
