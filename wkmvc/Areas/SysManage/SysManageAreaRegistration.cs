@@ -18,7 +18,7 @@ namespace wkmvc.Areas.SysManage
                 "SysManage_default",
                 "SysManage/{controller}/{action}/{id}",
                 new { action = "Index", id = UrlParameter.Optional },
-                new string[] { "WebPage.Areas.SysManage.Controllers" }
+                new string[] { "wkmvc.Areas.SysManage.Controllers" }
             );
         }
     }

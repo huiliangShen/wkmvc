@@ -32,7 +32,7 @@ namespace Service
         /// <summary>
         /// EF事务
         /// </summary>
-        DbContextTransaction Transcation { get; }
+        DbContextTransaction Transaction { get; }
 
 
         /// <summary>
