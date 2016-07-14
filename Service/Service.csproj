@@ -68,8 +68,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Config\ComService.xml" />
-    <Content Include="Config\Service.xml" />
+    <EmbeddedResource Include="Config\ComService.xml" />
+    <EmbeddedResource Include="Config\Service.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="IService\ComManage\" />

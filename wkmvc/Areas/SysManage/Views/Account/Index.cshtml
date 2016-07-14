@@ -1,4 +1,4 @@
-﻿@model SYS_USER
+﻿@model  Domain.SYS_USER
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,8 +20,10 @@
                         }, new { @class = "form-signin" }))
             {
                    @Html.AntiForgeryToken()
-                   @Html.TextBoxFor(model => model.ACCOUNT, new { @class = "form-control", @placeholder = "登录用户名", @maxlength = 15, @required = "required" })
-                   @Html.PasswordFor(model => model.PASSWORD, new { @class = "form-control", @placeholder = "登录密码", @maxlength = 12, @required = "required" })
+                   @Html.TextBoxFor(model => model.ACCOUNT, 
+                   new { @class = "form-control", @placeholder = "登录用户名", @maxlength = 15, @required = "required" })
+                   @Html.PasswordFor(model => model.PASSWORD, 
+                   new { @class = "form-control", @placeholder = "登录密码", @maxlength = 12, @required = "required" })
     <button type="submit" id="login-button" class="ui-button"></button>
             }
 
